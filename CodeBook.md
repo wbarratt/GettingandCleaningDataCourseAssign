@@ -2,23 +2,23 @@
 Assignment : Getting and Cleaning Data Course Project
 
 ###Applied transformations 
-1. Download the zip file from the location provided to a directory download just of the current working directory.
-2. Unzip the file in a working directory called data just off the R working directory.
-3. Load the files feature.txt, activity_labels.txt from main zip directory
-4. Load the training data file X_train.txt of all 561 variables with 7352 rows and the related activity file y_train.txt with the related subject file subject_train.txt.
-5. Load the test data file X_test.txt of all 561 variables with 2947 rows and the related activity file y_test.txt with the related subject file subject_test.txt.
+1. Download the zip file from the location provided to a directory **“download"** just off the current working directory.
+2. Unzip the file in a working directory called **“data"** just off the current R working directory.
+3. Load the files **“feature.txt"**, **“activity_labels.txt"** from main zip directory within **“data"**.
+4. Load the training data file **“X_train.txt"** of all 561 variables with 7352 rows and the related activity file **“y_train.txt"** with the related subject file **“subject_train.txt"**.
+5. Load the test data file **“X_test.txt"** of all 561 variables with 2947 rows and the related activity file **“y_test.txt"** with the related subject file **“subject_test.txt"**.
 6. Set the column values for the loaded data tables.
-7. Append to the training and test data tables to related values to identify the subject and the activity code for each row extending the columns to 563.
+7. Append to the training and test data tables, the related values to identify the subject and the activity code for each row extending the columns to 563.
 8. Merge the training and the test sets to create a single data set.
-9. Extracts from the primary data set only the measurements related to the mean and standard deviation for all measurements taken reduce down to 88 columns.
-10. Set the activity variable name to provide more descriptive from the activity labels details provided and remove the linking id value.  Set the variable as factor.
-11. Refine the variable labels by providing more detail descriptions and removing any special characters making up the variable names. All variable names are lower case.
-12. From the refined data set created in step 11 creates a second, independent tidy data set with the average of each variable for each subject and the related activity resulting in 180 rows of 88 variables.
+9. Select from the primary data set, the measurements related to the mean and standard deviation for all measurements taken.  The resulting data set will reduce down to 88 columns.
+10. Link the activity label name to each row, in order to provide more descriptive detail and remove the linking id value created in step 7.  Set the variable as factor.
+11. Refine the variable labels by providing more detail descriptions and remove any special characters making up the variable names. All variable names are in lower case.
+12. From the refined data set created in step 11, create a second independent tidy data set, with the average of each variable for each subject and the related activity resulting in 180 rows of 88 variables.
 
 | Description | Value |
 | :-- | :-- |
 | Tidy Dataset file name | TidyDataSet.txt |
-| Estimated dataset memory size | 286 kB |
+| Estimated dataset size | 286 kB |
 | Data Source web site | ["http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#"]("http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#"") |
 | Downloaded Data Source URL | ["https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"]("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"") |
 
